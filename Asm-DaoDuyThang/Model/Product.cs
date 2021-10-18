@@ -8,12 +8,12 @@ namespace Asm_DaoDuyThang.Model
 {
     class Product
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string AvatarPath { get; set; }
+        public string ProductName { get; set; }
+        public string Description { get; set; }
+        public string Image { get; set; }
     }
-    class Icons
+    class Icon
     {
-        public string AvatarPath { get; set; }
+        public string IconPath { get; set; }
     }
 }
